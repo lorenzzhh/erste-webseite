@@ -1,42 +1,94 @@
-footer{
+footer {
     background-color: rgb(34, 1, 1);
 }
 
-body{
+body {
     margin: 0px;
     background-color: rgb(70, 0, 0);
+    color: #8d7823;
 }
 
-header{
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+header {
     display: flex;
     background-color: rgb(34, 1, 1);
     justify-content: space-around;
     align-items: center;
 }
 
-h1{
+h1 {
     font-size: 5rem;
-    color: #FFCC00;
-    padding: 1rem;
+    padding: 5rem;
 }
 
-p{
-    padding: 1rem;
-    color: #FFCC00;
+p {
+    padding: 5rem;
+    font-size: 2rem;
 }
 
-.titelLogo{
+.zahlTitel{
+    color: #FFCC00;
+    margin: auto;
+}
+
+
+
+.titelLogo {
     height: 5rem;
 }
 
-.abschnitt{
+.abschnitt {
     width: 80%;
     margin: auto;
     border-radius: 1rem;
+    background-color: #dbd9cf;
+    transition: 1s;
+    color: transparent;
+    background-image: url('./bilder/fragen.jpg');
 }
 
-#nummer10{
+#nummer10:hover {
     background-image: url('./bilder/wueste.jpg');
     background-size: cover;
     background-position: center;
+    color: #FFCC00;
+}
+
+
+#nummer9:hover {
+    background-image: url('./bilder/tiefsee.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFCC00;
+}
+
+#nummer8:hover {
+    background-image: url('./bilder/hoehle.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFCC00;
+}
+
+#nummer7:hover {
+    background-image: url('./bilder/vulkan.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFCC00;
+}
+
+
+span{
+    color: #FFCC00;
+}
+
+div{
+    width: 80%;
+    margin: auto;
 }
