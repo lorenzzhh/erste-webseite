@@ -22,6 +22,12 @@ form {
     font-size: 2rem;
 }
 
+.footerNavigation{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
 label {
     padding: 1rem;
 }
