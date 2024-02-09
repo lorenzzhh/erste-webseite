@@ -128,6 +128,53 @@ p {
     color: #FFCC00;
 }
 
+#nummer6:hover {
+    background-image: url('./bilder/mount-everest.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFCC00;
+}
+
+
+#nummer5:hover {
+    background-image: url('./bilder/amazonas.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFCC00;
+}
+
+
+#nummer4:hover {
+    background-image: url('./bilder/mariannengraben.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFCC00;
+}
+
+
+#nummer3:hover {
+    background-image: url('./bilder/zuerich.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFCC00;
+}
+
+
+#nummer2:hover {
+    background-image: url('./bilder/felsen.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFCC00;
+}
+
+
+#nummer1:hover {
+    background-image: url('./bilder/schwarzes-loch.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFCC00;
+}
+
 
 span {
     color: #FFCC00;
