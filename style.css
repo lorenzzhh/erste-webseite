@@ -1,0 +1,42 @@
+footer{
+    background-color: rgb(34, 1, 1);
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(70, 0, 0);
+}
+
+header{
+    display: flex;
+    background-color: rgb(34, 1, 1);
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    font-size: 5rem;
+    color: #FFCC00;
+    padding: 1rem;
+}
+
+p{
+    padding: 1rem;
+    color: #FFCC00;
+}
+
+.titelLogo{
+    height: 5rem;
+}
+
+.abschnitt{
+    width: 80%;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+#nummer10{
+    background-image: url('./bilder/wueste.jpg');
+    background-size: cover;
+    background-position: center;
+}
